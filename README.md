@@ -1,7 +1,7 @@
 # Events-Countdown-Timer-ECT
 ## Homepage
-![alt text](https://github.com/Raihannajib/Events-Countdown-Timer-ECT-/tree/main/screen/homepage.PNG?raw=true)
+<img src="https://github.com/Raihannajib/Events-Countdown-Timer-ECT-/tree/main/screen/homepage.PNG">
 ## events list
-![alt text](https://github.com/Raihannajib/Events-Countdown-Timer-ECT-/tree/main/screen/list.PNG ?raw=true)
+<img src="https://github.com/Raihannajib/Events-Countdown-Timer-ECT-/tree/main/screen/list.PNG">
 ## get time from user using Date/Time Picker
-![alt text](https://github.com/Raihannajib/Events-Countdown-Timer-ECT-/tree/main/screen/timepicker.PNG?raw=true)
+<img src="https://github.com/Raihannajib/Events-Countdown-Timer-ECT-/tree/main/screen/timepicker.PNG">
