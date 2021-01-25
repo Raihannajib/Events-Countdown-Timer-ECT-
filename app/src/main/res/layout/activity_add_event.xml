@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+
+
+
+            <TableRow >
+
+                <TextView
+                    android:text="Event Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/eventName"
+                    android:layout_width="253dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1" />
+            </TableRow>
+
+
+            <TableRow >
+
+                <TextView
+                    android:id="@+id/error_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textColor="#F44336"
+                    />
+
+            </TableRow>
+
+
+
+            <TableRow >
+
+                <TextView
+                    android:text="Event Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/dateEvent"
+                    android:clickable="true"
+                    />
+            </TableRow>
+
+            <TableRow >
+
+                <TextView
+                    android:id="@+id/error_event"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textColor="#F44336"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="Start"
+                    app:backgroundTint="#673AB7"
+                    app:iconTint="#673AB7" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
